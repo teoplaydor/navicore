@@ -1,0 +1,7 @@
+mediapipe==0.10.35
+opencv-python>=4.10
+numpy>=2.0
+pywin32>=306
+pynput>=1.7
+pystray>=0.19
+Pillow>=10

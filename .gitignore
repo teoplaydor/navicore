@@ -1,0 +1,29 @@
+# Build / portable dist (downloaded binaries, embeddable Python — ~890 MB)
+dist/
+build/
+*.staging/
+get-pip.py
+python-*-embed-amd64.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local runtime config
+navicore_config.json
+
+# Archives / binaries
+*.zip
+*.7z
+
+# IDE / logs
+.vscode/
+.idea/
+*.log
+
+# NOTE: models/*.task (MediaPipe, Apache-2.0, ~12 MB) are intentionally kept so the app runs out of the box.
